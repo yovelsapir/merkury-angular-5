@@ -1,3 +1,10 @@
+Angular 5 & mdboostrap - Front End Project.
+Responsive web application with "Merkury" Design.
+link: https://symu.co/freebies/templates-4/merkury-psd-template/
+
+
+Contact: yovelsapir@gmail.com
+
 Material Design for Bootstrap - Angular
 
 Version: MDB - Angular 4.2.0
