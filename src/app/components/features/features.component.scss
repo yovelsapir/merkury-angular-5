@@ -1,0 +1,19 @@
+$break-lg: 1424px;
+$break-md: 1068px;
+$break-sm: 768px;
+$break-xs: 512px;
+.btn-see-more {
+    color: black !important;
+    font-weight: bold;
+    border: 1px solid #0e1a353d;
+    width: 250px;
+    border-radius: 50px;
+    @media screen and (max-width: $break-xs) {
+        width: 100%;
+    }
+}
+
+.btn-see-more:hover {
+    box-shadow: 0px 0px 25px -7px #5284ff !important;
+    color: #5284ff !important;
+}

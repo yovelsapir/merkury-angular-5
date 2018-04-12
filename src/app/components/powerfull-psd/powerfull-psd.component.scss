@@ -1,0 +1,88 @@
+$break-lg: 1424px;
+$break-md: 1068px;
+$break-sm: 768px;
+$break-xs: 512px;
+$break-xxs: 368px;
+#powerfull-background {
+    height: 980px;
+    width: 100%;
+    background-color: #f6f7fa;
+}
+
+#mockup-background {
+    background-image: url('/assets/Screen Mockup.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1218px;
+    height: 681px;
+    margin: 0 auto;
+    min-width: 300px;
+    @media screen and (max-width: $break-sm) {
+        background-size: 100%;
+    }
+    p {
+        width: 232px;
+        line-height: 2rem;
+        color: #8492af;
+    }
+    .header-text {
+        @media screen and (max-width: $break-xs) {
+            font-size: 0.6rem;
+        }
+    }
+    .mockup-body-left {
+        @media screen and (max-width: $break-sm) {
+            position: relative;
+            top: 125px;
+        }
+        @media screen and (max-width: $break-xs) {
+            top: 165px;
+            p {
+                font-size: 0.7rem;
+                width: 200px;
+                line-height: 1rem;
+            }
+        }
+    }
+    .mockup-body-right {
+        @media screen and (max-width: $break-sm) {
+            position: relative;
+            bottom: 40px;
+        }
+        @media screen and (max-width: $break-xs) {
+            bottom: 55px;
+        }
+        @media screen and (max-width: $break-xxs) {
+            bottom: 75px;
+        }
+        p {
+            @media screen and (max-width: $break-xs) {
+                font-size: 0.7rem;
+                width: 200px;
+                line-height: 1rem;
+            }
+        }
+    }
+    .hr-mockup {
+        border: 1px solid #5584ff;
+        width: 94%;
+        @media screen and (max-width: $break-sm) {
+            width: 89%;
+        }
+    }
+    .hr-circle-mockup {
+        background-color: #5584ff;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        bottom: 15px;
+        left: 2px;
+        border-radius: 50px;
+        box-shadow: 0px 0px 0px 8px #5584ff80;
+        @media screen and (max-width: $break-sm) {
+            width: 10px;
+            height: 10px;
+            bottom: 5px;
+        }
+    }
+}

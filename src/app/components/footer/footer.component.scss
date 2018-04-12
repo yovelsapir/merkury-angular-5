@@ -1,0 +1,37 @@
+.background {
+    background-image: url('assets/footer.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 145px;
+    width: 100%;
+    background-position: 50% 50%;
+}
+
+#navbar-nav{
+    .nav-item{
+        width: 100px;
+
+        a{
+            color: #8492af;
+            transition: 0.3s all;
+        }
+
+
+        a:hover{
+            color: whitesmoke;
+        }
+    }
+}
+
+.nav-flex-icons{
+    .nav-item {
+        a {
+            color: #8492af;
+            transition: 0.3s all;
+        }
+
+        a:hover{
+            color: whitesmoke;
+        }
+    }
+}

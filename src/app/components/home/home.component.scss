@@ -1,0 +1,67 @@
+$break-md: 1068px;
+$break-sm: 768px;
+$break-xs: 512px;
+section {
+    .home-background {
+        background-image: url('assets/background.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 1100px;
+        width: 100%;
+        background-position: 50% 50%;
+
+        @media screen and (max-width: $break-sm) {
+            min-height: 700px;
+        }
+    }
+    .merkury-dashboard-img {
+        position: relative;
+        top: 130px;
+        @media screen and (max-width: $break-sm) {
+            top: 50px;
+        }
+        @media screen and (max-width: $break-xs) {
+             top: 50px;
+        }
+    }
+    .partner-crime-text {
+        font-size: 36px;
+        color: #8492af;
+        @media screen and (max-width: $break-md) {
+            font-size: 30px;
+        }
+        @media screen and (max-width: $break-sm) {
+            font-size: 24px;
+        }
+        @media screen and (max-width: $break-xs) {
+            font-size: 16px;
+        }
+    }
+    .grow-your-business-text {
+        font-weight: 100;
+        font-size: 60px;
+        @media screen and (max-width: $break-md) {
+            font-size: 40px;
+        }
+        @media screen and (max-width: $break-sm) {
+            font-size: 32px;
+        }
+        @media screen and (max-width: $break-xs) {
+            font-size: 20px;
+        }
+    }
+    .btn-get-started {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 200px;
+        min-height: 40px;
+        border-radius: 50px;
+        margin-top: 80px;
+        @media screen and (max-width: $break-sm) {
+            font-size: 0.6em;
+            min-width: 100px;
+            min-height: 20px;
+        }
+    }
+}
